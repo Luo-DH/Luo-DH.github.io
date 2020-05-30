@@ -181,99 +181,10 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="2020-5-29"><a href="#2020-5-29" class="headerlink" title="2020-5-29"></a>2020-5-29</h2><hr>
-<h3 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h3><hr>
-<h4 id="回顾"><a href="#回顾" class="headerlink" title="回顾"></a>回顾</h4><ul>
-<li><p>集合</p>
-<ul>
-<li><p>Collection接口</p>
-</li>
-<li><p>List接口</p>
-<ul>
-<li>ArrayList：jdk1.2<ul>
-<li>线程不安全，效率高</li>
-<li>底层Object[]<ul>
-<li>jdk7.0以前初始容量为10，之后扩充为原来的1.5倍</li>
-<li>jdk8类似懒汉式，容量也是10</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>LinkedList:jdk1.2<ul>
-<li>底层实现是双向链表</li>
-<li>定义了内部类Node</li>
-<li>如果做中间插入操作，LinkedList效率高</li>
-</ul>
-</li>
-<li>Vector: jdk1.0<ul>
-<li>初始化容量为16，每次扩容为原来的2倍</li>
-<li>线程安全，效率低</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>Set接口</p>
-<blockquote>
-<ul>
-<li>无序的</li>
-<li>不可重复</li>
-</ul>
-</blockquote>
-<ul>
-<li>HashSet<ul>
-<li>判断hashCode()方法，比较hashCode()的值，如果相等则不能插入</li>
-</ul>
-</li>
-<li>LinkedHashSet<ul>
-<li>基本方法与HashSet一致，不过每个数据增加两个节点，方便频繁遍历操作，效率更高</li>
-</ul>
-</li>
-<li>TreeSet<ul>
-<li>输入的数据必须是同一个类的对象，否则没有办法比较大小</li>
-<li>底层使用CompareTo接口中的方法比较大小，或者Compartor()方法</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h4 id="笔记整理"><a href="#笔记整理" class="headerlink" title="笔记整理"></a>笔记整理</h4><ul>
-<li><p>数组在内存存储方面的特点：</p>
-<ul>
-<li>数组初始化以后，长度就确定了</li>
-<li>数组声明的类型，就决定了进行元素初始化时的类型</li>
-</ul>
-</li>
-<li><p>数组在存储数据方面的弊端：</p>
-<ul>
-<li>初始化以后，长度就不可以改变，不便于拓展</li>
-<li>数组中提供的属性和方法少，不便于进行添加，删除，插入等操作，效率不高，同时无法直接获取存储元素的个数</li>
-</ul>
-</li>
-<li><blockquote>
-<p>数组存储的数据时有序的，可以重复的 —&gt; 存储数据的特点时单一</p>
-</blockquote>
-</li>
-</ul>
-<ul>
-<li>Java集合<ul>
-<li>Collection接口：<code>单例数据，定义了存取一组对象的方法的集合</code><ul>
-<li>List：元素有序，可重复的集合<ul>
-<li>ArrayList：类似“动态数组”</li>
-<li>LinkedList：频繁插入或删除元素</li>
-</ul>
-</li>
-<li>Set：元素无序，不可重复的集合</li>
-</ul>
-</li>
-<li>Map接口：<code>双列数据，保存具有映射关系“key-value”对的集合</code></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h4 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h4><p>效率有待加强，时间拖得太晚，学习的知识点较少</p>
-
+<h3 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h3>
+        
+          <a class="article-more-a" href="/2020/05/29/2020-5-29/#more">点击阅读全文 >></a>
+        
       
 
       
